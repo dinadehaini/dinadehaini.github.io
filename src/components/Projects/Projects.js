@@ -15,10 +15,10 @@ function Projects() {
     <Container fluid className="project-section">
       <Particle />
       <Container>
-        <h1 className="project-heading">
+        <h1 className="purple">
           My Recent <strong className="purple">Works </strong>
         </h1>
-        <p style={{ color: "white" }}>
+        <p style={{ color: "black" }}>
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
@@ -27,7 +27,7 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Image Captioning"
-              description="Automatic text description generation for images via CNN encoder GRU decoder architecture model."
+              description="Automatic text description generation for images via CNN encoder GRU decoder and transformer architecture model. Compared the BLEU score and validation loss of each model to evaluate the final results."
               link="https://github.com/Aditikk00/image-text-generation"
             />
           </Col>
@@ -37,7 +37,7 @@ function Projects() {
               imgPath={leaf}
               isBlog={false}
               title="Semi-Supervised Semantic Segmentation"
-              description="Semantic segmentation via a mesh model that fuses and enhances predictions from two data sources, RGB and thermal images, and produces pseudo labels in order to perform cross pseudosupervised semi-supervised learning and encourage similar predictions."
+              description="Semantic segmentation via a mesh model that fuses and enhances predictions from two data sources, RGB and thermal images, and produces pseudo labels in order to perform cross pseudosupervised semi-supervised learning and encourage similar predictions. (Link unavailable)"
               link=""
             />
           </Col>
@@ -47,7 +47,7 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="Semantic	Search	and	Recommendation"
-              description="Built and deployed semantic search project with people also ask function for financial advisors at LPL Financial to reduce calls to the help center using AEM, Solr and Machine Learning services."
+              description="Built and deployed semantic search project with people also ask function for financial advisors at LPL Financial to reduce calls to the help center using AEM, Solr, and NLP solutions.             (Link unavailable)"
               link=""
             />
           </Col>
@@ -56,30 +56,21 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Accident Severity Prediction"
+              description="Multiple regression analysis of traffic data which aims to predict accident severity based on a variety of attributes, will accomplish these goals as well as specifically benefit traffic app companies, such as Google Maps, Apple Maps, and Waze."
+              link="https://github.com/dinadehaini/Accident-Severity-Prediction"
             />
           </Col>
+
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Benign/Malignant	Tumor	Prediction"
+              description="Developed PCA, K-means, and Gaussian mixture model algorithms from scratch to predict benign vs malignant breast cancer tumors with the Wisconsin breast cancer diagnostic dataset andcompared the accuracy of both models on raw data and PCA data."
+              link="https://github.com/dinadehaini/Benign-Malignant-Breast-Cancer-Preidction"
             />
           </Col>
         </Row>
