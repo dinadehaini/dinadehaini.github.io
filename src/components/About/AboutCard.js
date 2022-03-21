@@ -18,13 +18,13 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
            <p style={{ textAlign: "justify" }}>
-            Welcome to my portfolio, a space where I can share my experiences and skills with youI am from <span className="purple"> San Diego, California </span>
+            Welcome to my portfolio, a space where I can share my experiences, skills, and some of my interests with you. My name is Dina, I am from <span className="purple"> San Diego, California </span>
             and a student at UC San Diego, studying Cognitive Science with a Specialization in Machine Learning and Neural Computation along with a 
                   minor in Computer Science Engineering.
             <br />
             
 
-            <br />My research and professional experiences lie in computer vision and natural language processing.
+            <br />My research and professional experiences lie in computer vision and natural language processing. I love innovation, working with others, and challenges.
             <br />
             <br />
             Apart from tech, some other activities that I love to do include:
