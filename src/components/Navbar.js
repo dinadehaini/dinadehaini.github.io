@@ -111,7 +111,7 @@ function NavBar() {
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                CAT 125
+                Critique
               </Nav.Link>
             </Nav.Item>
 
